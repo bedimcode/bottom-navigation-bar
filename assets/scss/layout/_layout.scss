@@ -1,0 +1,17 @@
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container{
+   max-width: 1120px;
+   margin-inline: 1.5rem;
+}
+
+/* Remove the property of 100vh, when inserting its content */
+.section{
+   height: 100vh;
+   padding-block: 2.5rem;
+   
+   & h1{
+      font-size: var(--biggest-font-size);
+      color: var(--black-color);
+      text-align: center;
+   }
+}

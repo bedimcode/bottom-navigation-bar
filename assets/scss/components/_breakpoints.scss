@@ -1,0 +1,14 @@
+/*=============== BREAKPOINTS ===============*/
+/* For medium devices */
+@media screen and (min-width: 450px){
+   .nav{
+      width: 350px;
+   }
+}
+
+/* For large devices */
+@media screen and (min-width: 1150px){
+   .container{
+      margin-inline: auto;
+   }
+}
